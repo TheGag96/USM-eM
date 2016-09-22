@@ -1,19 +1,18 @@
 # Super Smash Bros. DX
-A new full rom hack for Smash 3DS (Wii U coming soon), inspired by Project M and Melee.  Changes include character and gameplay changes that match Melee closely, as well as a handful of extras like SFX and music.
+A new full rom hack for Smash 3DS (and Wii U coming soon), inspired by Project M and Melee.  Changes include character and gameplay changes that match Melee closely, as well as a handful of extras like Stages, SFX and Music, and Skins.
 ## Characters
 ###### Complete
 - Captain Falcon
-- Dr. Mario
 - Mewtwo
 - Roy
 
 ###### WIP
 - Fox
-- Sheik
 - Ganondorf
 
 ###### To-Do
 - Mario
+- Dr. Mario
 - Luigi
 - Peach
 - Bowser
@@ -25,6 +24,7 @@ A new full rom hack for Smash 3DS (Wii U coming soon), inspired by Project M and
 - Diddy Kong
 - Link
 - Zelda
+- Sheik
 - Toon Link
 - Samus
 - Zero Suit Samus
