@@ -1,0 +1,41 @@
+MoveDef AppealSR
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sword_Trace(TraceID=0xEE, BlurLen=1.121039E-44, Bone1=0x3EA, Z=0, Y=0, X=0.5, Bone2=0x3EA, Z=-1E-05, Y=-2E-05, X=13, Anchored=0x1, Graphic=0x3360008, Bone3=0x3EA, Z=0, Y=0, X=0, RotX=0, RotY=0, RotZ=0, Length=1)
+		Synchronous_Timer(Frames=34)
+		Graphic_Effect2(unknown=0x100000F, unknown=0x0, unknown=0xC1000000, unknown=0x411CCCCD, unknown=0xC0C00000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x3F666666, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Asynchronous_Timer(Frames=36)
+		Asynchronous_Timer(Frames=38)
+		Graphic_Effect(unknown=0x1000009, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0xC0400000, unknown=0x0, unknown=0x43660000, unknown=0x0, unknown=0x3F000000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x1)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0xC230076)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0xC260000)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0xC230077)
+		Synchronous_Timer(Frames=48)
+		Sound_Effect(SFX=0xC230078)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=32)
+		Asynchronous_Timer(Frames=50)
+		Asynchronous_Timer(Frames=80)
+		Script_End()
+	}
+
+}

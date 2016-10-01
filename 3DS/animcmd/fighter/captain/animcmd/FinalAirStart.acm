@@ -1,0 +1,30 @@
+MoveDef FinalAirStart
+{
+	Main()
+	{
+		Subroutine2(Hash=0x17EB3D5)
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=24)
+		Sound_Effect(SFX=0xE0086)
+		Synchronous_Timer(Frames=35)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		unk_EE37008F()
+		Asynchronous_Timer(Frames=24)
+		Asynchronous_Timer(Frames=91)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,27 @@
+MoveDef SpecialNStart
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xC230072)
+		Synchronous_Timer(Frames=7)
+		Transient_Sound_Effect(unknown=0xC230049)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=15)
+		Script_End()
+	}
+
+}

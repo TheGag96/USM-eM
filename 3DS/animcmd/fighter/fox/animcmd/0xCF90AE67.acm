@@ -1,0 +1,19 @@
+MoveDef 0xCF90AE67
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

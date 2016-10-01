@@ -1,0 +1,27 @@
+MoveDef 0x5DC621E5
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Subroutine1(Unknown=0x93B1CBBC)
+		Asynchronous_Timer(Frames=6)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=1)
+		Script_End()
+	}
+
+}

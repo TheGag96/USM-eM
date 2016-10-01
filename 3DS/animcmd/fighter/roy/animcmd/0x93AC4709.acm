@@ -1,0 +1,31 @@
+MoveDef 0x93AC4709
+{
+	Main()
+	{
+		Subroutine2(Hash=0x16E98CE7)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0x16E98CE7)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0x16E98CE7)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=7)
+		Asynchronous_Timer(Frames=11)
+		Screen_Shake(unknown=0x5)
+		Asynchronous_Timer(Frames=23)
+		Script_End()
+	}
+
+}

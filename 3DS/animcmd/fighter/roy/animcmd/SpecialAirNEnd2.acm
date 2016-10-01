@@ -1,0 +1,31 @@
+MoveDef SpecialAirNEnd2
+{
+	Main()
+	{
+		Subroutine2(Hash=0xB8A55139)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xB8A55139)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xB8A55139)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=7)
+		Asynchronous_Timer(Frames=11)
+		Screen_Shake(unknown=0x4)
+		Asynchronous_Timer(Frames=23)
+		Script_End()
+	}
+
+}
