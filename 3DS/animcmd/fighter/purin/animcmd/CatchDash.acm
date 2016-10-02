@@ -2,8 +2,10 @@ MoveDef CatchDash
 {
 	Main()
 	{
+		Set_Frame_Duration(Speed=1.25)
 		Asynchronous_Timer(Frames=8)
-		Grab_Collision(ID=0x0, Bone=0x0, Size=2.8, Z=0, Y=5.2, X=4, Action=0x3F, AirGround=0x3, Unknown=0x0, Unknown=5.2, Unknown=8.2)
+		Set_Frame_Duration(Speed=1)
+		Grab_Collision(ID=0x0, Bone=0x0, Size=4, Z=0, Y=5.2, X=4, Action=0x3F, AirGround=0x3, Unknown=0x0, Unknown=5.2, Unknown=8.2)
 		Subroutine1(Unknown=0x49FA5BDD)
 		Synchronous_Timer(Frames=2)
 		Terminate_Grab_Collisions()
