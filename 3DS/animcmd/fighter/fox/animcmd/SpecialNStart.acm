@@ -2,6 +2,7 @@ MoveDef SpecialNStart
 {
 	Main()
 	{
+		Bit_Variable_Set(Unknown=0x2100000D)
 		Asynchronous_Timer(Frames=3)
 		Generate_Weapon(ID=0x0)
 		Asynchronous_Timer(Frames=4)
@@ -9,6 +10,7 @@ MoveDef SpecialNStart
 		TRUE(Unknown=0x5){
 		Set_Article_Action(Unknown=0x0, Unknown=0x0)
 		}
+		Bit_Variable_Clear(Unknown=0x2100000D)
 		Script_End()
 	}
 

@@ -2,10 +2,12 @@ MoveDef SpecialNEnd
 {
 	Main()
 	{
+		Bit_Variable_Set(Unknown=0x2100000D)
 		unk_979D8828(Unknown=0x0)
 		TRUE(Unknown=0x5){
 		Set_Article_Action(Unknown=0x0, Unknown=0x2)
 		}
+		Bit_Variable_Clear(Unknown=0x2100000D)
 		Script_End()
 	}
 
