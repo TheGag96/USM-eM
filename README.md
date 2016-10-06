@@ -3,7 +3,9 @@ A new full rom hack for Smash 3DS (and Wii U coming soon), inspired by Project M
 ## Our Discord Server!
 **Join our Discord server here: https://discord.gg/9zzpnrc**
 
-This server is the place to be for anything related to our mod. You can make suggestions, contribute your ideas, find other people to play with, and more!
+**Find our GBATemp thread here https://gbatemp.net/threads/unnamed-smash-4-3ds-wii-u-wip-mod-project.440007/**
+
+The Discord server is the place to be for anything related to our mod. You can make suggestions, contribute your ideas, find other people to play with, and more!
 ## Changelog
 **Coming soon!**
 
