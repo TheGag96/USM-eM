@@ -5,4 +5,5 @@ A new full rom hack for Smash 3DS (and Wii U coming soon), inspired by Project M
 This server is the place to be for anything related to our mod. You can make suggestions, contribute your ideas, find other people to play with, and more!
 ## Changelog
 **Coming soon!**
+
 While the changelog is being compiled, here is a list of characters we have made significant changes to. http://pastebin.com/J97VDFTB
