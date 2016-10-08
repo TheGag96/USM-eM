@@ -21,7 +21,7 @@ MoveDef ThrowF
 		Asynchronous_Timer(Frames=6)
 		Sound_Effect(SFX=0x120)
 		Synchronous_Timer(Frames=8)
-		Sound_Effect(SFX=0x400014)
+		Low_Voice_Clip(unknown=0x80010005)
 		Script_End()
 	}
 

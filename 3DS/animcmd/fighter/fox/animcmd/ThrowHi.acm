@@ -47,6 +47,7 @@ MoveDef ThrowHi
 	{
 		Asynchronous_Timer(Frames=7)
 		Sound_Effect(SFX=0x121)
+		Low_Voice_Clip(unknown=0x80010005)
 		Synchronous_Timer(Frames=4)
 		Sound_Effect(SFX=0xB004C)
 		Synchronous_Timer(Frames=7)

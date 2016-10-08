@@ -2,6 +2,7 @@ MoveDef SpecialAirS
 {
 	Main()
 	{
+		Set_Edge_Slide(unknown=0x5)
 		Subroutine2(Hash=0x224117F6)
 		Script_End()
 	}

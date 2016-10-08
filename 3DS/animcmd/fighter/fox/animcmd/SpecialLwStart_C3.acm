@@ -2,7 +2,6 @@ MoveDef SpecialLwStart_C3
 {
 	Main()
 	{
-		Set_Frame_Duration(Speed=3.3)
 		Script_End()
 	}
 

@@ -2,6 +2,7 @@ MoveDef SpecialAirNLoop
 {
 	Main()
 	{
+		Bit_Variable_Set(Unknown=0x2100000D)
 		Subroutine2(Hash=0xBF498DF3)
 		Script_End()
 	}

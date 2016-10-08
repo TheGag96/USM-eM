@@ -100,7 +100,11 @@ MoveDef SpecialNLoop
 
 	Sound()
 	{
-		Asynchronous_Timer(Frames=120)
+		Asynchronous_Timer(Frames=1)
+		Sound_Effect(SFX=0xC230077)
+		Synchronous_Timer(Frames=5)
+		Sound_Effect(SFX=0xC230049)
+		Synchronous_Timer(Frames=140)
 		Sound_Effect(SFX=0xC260000)
 		Script_End()
 	}

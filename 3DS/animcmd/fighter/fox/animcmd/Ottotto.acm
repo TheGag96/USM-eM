@@ -10,7 +10,7 @@ MoveDef Ottotto
 
 	Sound()
 	{
-		Low_Voice_Clip(unknown=0x80010008)
+		Sound_Effect(SFX=0x400027)
 		Script_End()
 	}
 

@@ -4,8 +4,8 @@ MoveDef AttackLw3
 	{
 		Asynchronous_Timer(Frames=7)
 		unk_AC811479(Unknown=0x3EA, Unknown=0x2)
-		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=12, Unknown=0x50, Unknown=0x28, Unknown=0x0, Unknown=0x5A, Unknown=2.7, Unknown=0, Unknown=3.5, Unknown=13, Unknown=0x19, Unknown=0.35, Unknown=0.6, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=4.1, Unknown=9.2)
-		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x3EA, Unknown=9, Unknown=0x50, Unknown=0x28, Unknown=0x0, Unknown=0x46, Unknown=2.7, Unknown=0, Unknown=0, Unknown=6.7, Unknown=0x19, Unknown=0.35, Unknown=0.6, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=0, Unknown=4.7)
+		Extended_Hitbox(Unknown=0x0, Unknown=0x0, Unknown=0x0, Unknown=12, Unknown=0x50, Unknown=0x28, Unknown=0x0, Unknown=0x5A, Unknown=2.7, Unknown=0, Unknown=3.5, Unknown=13, Unknown=0x19, Unknown=0.35, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=4.1, Unknown=9.2)
+		Extended_Hitbox(Unknown=0x1, Unknown=0x0, Unknown=0x3EA, Unknown=9, Unknown=0x50, Unknown=0x28, Unknown=0x0, Unknown=0x46, Unknown=2.7, Unknown=0, Unknown=0, Unknown=6.7, Unknown=0x19, Unknown=0.35, Unknown=1, Unknown=1, Unknown=0x1, Unknown=0x1, Unknown=0x0, Unknown=0x0, Unknown=0x1, Unknown=0x3, Unknown=0x1, Unknown=0xA, Unknown=0, Unknown=0, Unknown=4.7)
 		Synchronous_Timer(Frames=2)
 		Remove_All_Hitboxes()
 		Script_End()

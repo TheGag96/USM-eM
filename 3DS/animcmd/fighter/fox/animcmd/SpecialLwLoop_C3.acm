@@ -2,7 +2,6 @@ MoveDef SpecialLwLoop_C3
 {
 	Main()
 	{
-		Set_Frame_Duration(Speed=2)
 		Script_End()
 	}
 

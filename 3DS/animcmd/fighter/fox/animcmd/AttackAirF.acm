@@ -2,6 +2,7 @@ MoveDef AttackAirF
 {
 	Main()
 	{
+		Set_Edge_Slide(unknown=0x5)
 		Set_Frame_Duration(Speed=0.8571428)
 		Asynchronous_Timer(Frames=7)
 		Set_Frame_Duration(Speed=1.5)

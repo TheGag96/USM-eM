@@ -14,6 +14,7 @@ MoveDef 0x6B3FB011
 	{
 		Asynchronous_Timer(Frames=5)
 		Sound_Effect(SFX=0xB002E)
+		Sound_Effect(SFX=0x80010006)
 		Synchronous_Timer(Frames=11)
 		Sound_Effect(SFX=0x6C)
 		Synchronous_Timer(Frames=15)

@@ -2,7 +2,6 @@ MoveDef SpecialNStart_C2
 {
 	Main()
 	{
-		Asynchronous_Timer(Frames=3)
 		Generate_Weapon(ID=0x0)
 		Asynchronous_Timer(Frames=4)
 		unk_979D8828(Unknown=0x0)

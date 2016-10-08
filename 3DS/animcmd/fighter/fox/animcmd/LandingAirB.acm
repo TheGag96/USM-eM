@@ -6,6 +6,7 @@ MoveDef LandingAirB
 
 	Effect()
 	{
+		Set_Edge_Slide(unknown=0x1)
 		Subroutine2(Hash=0xBB31D589)
 		Script_End()
 	}

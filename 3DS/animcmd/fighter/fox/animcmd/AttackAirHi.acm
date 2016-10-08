@@ -2,6 +2,7 @@ MoveDef AttackAirHi
 {
 	Main()
 	{
+		Set_Edge_Slide(unknown=0x5)
 		Asynchronous_Timer(Frames=8)
 		Bit_Variable_Set(Unknown=0x2100000D)
 		Hitbox(ID=0x0, Part=0x0, Bone=0x3E8, Damage=5, Angle=0x5C, KBG=0x78, FKB=0x1E, BKB=0x0, Size=5.5, Z=0, Y=0, X=0, Effect=0x0, Trip=0, Hitlag=1, SDI=1, Clang=0x1, Unknown=0x1, ShieldDamage=0x0, SFXType=0x0, Ground/Air=0x1, Direct/Indirect=0x3, Unknown=0x1, Unknown=0x18)

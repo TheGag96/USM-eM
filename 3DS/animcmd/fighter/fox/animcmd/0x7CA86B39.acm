@@ -17,7 +17,9 @@ MoveDef 0x7CA86B39
 	Sound()
 	{
 		Asynchronous_Timer(Frames=5)
-		Sound_Effect(SFX=0xB002E)
+		IS_FLAG_WORK(unknown=0x21000014)
+		Synchronous_Timer(Frames=15)
+		Sound_Effect(SFX=0x6C)
 		Script_End()
 	}
 

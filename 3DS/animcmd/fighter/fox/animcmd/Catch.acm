@@ -3,7 +3,7 @@ MoveDef Catch
 	Main()
 	{
 		Asynchronous_Timer(Frames=6)
-		Grab_Collision(ID=0x0, Bone=0x0, Size=3, Z=0, Y=7, X=4, Action=0x3F, AirGround=0x3, Unknown=0x0, Unknown=7, Unknown=9)
+		Grab_Collision(ID=0x0, Bone=0x0, Size=4, Z=0, Y=7, X=5, Action=0x3F, AirGround=0x3, Unknown=0x0, Unknown=7, Unknown=9)
 		Subroutine1(Unknown=0x49FA5BDD)
 		Synchronous_Timer(Frames=2)
 		Terminate_Grab_Collisions()

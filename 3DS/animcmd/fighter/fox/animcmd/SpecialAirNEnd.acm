@@ -2,6 +2,7 @@ MoveDef SpecialAirNEnd
 {
 	Main()
 	{
+		Bit_Variable_Set(Unknown=0x2100000D)
 		Subroutine2(Hash=0x179E4623)
 		Script_End()
 	}
