@@ -1,0 +1,24 @@
+MoveDef 0xB4589A21
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=9)
+		unk_965E035A()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=9)
+		Script_End()
+	}
+
+}

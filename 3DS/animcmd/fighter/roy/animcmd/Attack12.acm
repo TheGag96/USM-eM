@@ -1,0 +1,24 @@
+MoveDef Attack12
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=3)
+		Sword_Trace(TraceID=0xEE, BlurLen=1.121039E-44, Bone1=0x3EA, Z=0, Y=0, X=0.5, Bone2=0x3EA, Z=-1E-05, Y=-2E-05, X=13, Anchored=0x1, Graphic=0x3360008, Bone3=0x3EA, Z=0, Y=0, X=0, RotX=0, RotY=0, RotZ=0, Length=1)
+		Asynchronous_Timer(Frames=15)
+		Terminate_Sword_Glow(unknown=0x4)
+		Script_End()
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}

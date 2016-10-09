@@ -1,0 +1,29 @@
+MoveDef SpecialHiHoldAir
+{
+	Main()
+	{
+		Subroutine2(Hash=0xD9CFA96E)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Subroutine2(Hash=0xD9CFA96E)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Subroutine2(Hash=0xD9CFA96E)
+		Script_End()
+	}
+
+	Expression()
+	{
+		SLOPE(unknown=0x6)
+		Asynchronous_Timer(Frames=3)
+		Asynchronous_Timer(Frames=42)
+		Script_End()
+	}
+
+}
