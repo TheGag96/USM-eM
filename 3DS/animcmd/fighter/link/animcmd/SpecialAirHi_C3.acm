@@ -1,0 +1,40 @@
+MoveDef SpecialAirHi_C3
+{
+	Main()
+	{
+		Set_Frame_Duration(Speed=0.9)
+		Asynchronous_Timer(Frames=38)
+		Set_Frame_Duration(Speed=0.5)
+		Asynchronous_Timer(Frames=67)
+		Set_Frame_Duration(Speed=2)
+		Script_End()
+	}
+
+	Effect()
+	{
+		Set_Loop(Iterations=4){
+		Asynchronous_Timer(Frames=2)
+		Graphic_Effect2(unknown=0x1000023, unknown=0x0, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x3FC00000, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x41A00000, unknown=0x43B40000, unknown=0x41A00000, unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Graphic_Effect2(unknown=0x1000045, unknown=0x0, unknown=0x0, unknown=0x41700000, unknown=0x0, unknown=0x0, unknown=0x0, unknown=0x43340000, unknown=0x3FC00000, unknown=0x0, unknown=0x40A00000, unknown=0x0, unknown=0x41A00000, unknown=0x43B40000, unknown=0x41A00000, unknown=0x0)
+		Synchronous_Timer(Frames=5)
+		Goto(Unknown=-40)
+		}
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=8)
+		Sound_Effect(SFX=0x160)
+		Sound_Effect(SFX=0x30092)
+		Script_End()
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=3)
+		Script_End()
+	}
+
+}

@@ -1,0 +1,41 @@
+MoveDef Win1
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+		Asynchronous_Timer(Frames=20)
+		Sword_Trace(TraceID=0x1, BlurLen=7.006492E-45, Bone1=0x3E8, Z=1, Y=0, X=0, Bone2=0x3E8, Z=13, Y=0, X=0, Anchored=0x1, Graphic=0x3050000, Bone3=0x3E8, Z=0, Y=0, X=0, RotX=0, RotY=0, RotZ=0, Length=1)
+		Asynchronous_Timer(Frames=23)
+		Terminate_Sword_Glow(unknown=0x4)
+		Asynchronous_Timer(Frames=40)
+		Sword_Trace(TraceID=0x1, BlurLen=7.006492E-45, Bone1=0x3E8, Z=1, Y=0, X=0, Bone2=0x3E8, Z=13, Y=0, X=0, Anchored=0x1, Graphic=0x3050000, Bone3=0x3E8, Z=0, Y=0, X=0, RotX=0, RotY=0, RotZ=0, Length=1)
+		Asynchronous_Timer(Frames=43)
+		Terminate_Sword_Glow(unknown=0x4)
+		Script_End()
+	}
+
+	Sound()
+	{
+		Asynchronous_Timer(Frames=20)
+		unk_3A775D26(unknown=0x62001A)
+		Synchronous_Timer(Frames=3)
+		Sound_Effect(SFX=0x30044)
+		Synchronous_Timer(Frames=19)
+		Sound_Effect(SFX=0x30044)
+		Synchronous_Timer(Frames=36)
+		Sound_Effect(SFX=0x70)
+		Synchronous_Timer(Frames=4)
+		Sound_Effect(SFX=0x30043)
+		Synchronous_Timer(Frames=28)
+		Sound_Effect(SFX=0x30045)
+		Script_End()
+	}
+
+	Expression()
+	{
+	}
+
+}
