@@ -1,0 +1,22 @@
+MoveDef 0xE51EC543
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Loop_Rest()
+		Subroutine2(Hash=0xE51EC543)
+		Script_End()
+	}
+
+}

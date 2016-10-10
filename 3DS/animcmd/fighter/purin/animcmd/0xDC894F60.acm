@@ -1,0 +1,26 @@
+MoveDef 0xDC894F60
+{
+	Main()
+	{
+		Asynchronous_Timer(Frames=4)
+		Subroutine1(Unknown=0x3FEED32F)
+		Asynchronous_Timer(Frames=6)
+		Remove_All_Hitboxes()
+		Script_End()
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=1)
+		Script_End()
+	}
+
+}

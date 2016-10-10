@@ -1,0 +1,22 @@
+MoveDef CameraHit
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+		Asynchronous_Timer(Frames=2)
+		Asynchronous_Timer(Frames=46)
+		Script_End()
+	}
+
+}

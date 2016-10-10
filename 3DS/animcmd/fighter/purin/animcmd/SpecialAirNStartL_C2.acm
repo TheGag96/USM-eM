@@ -1,0 +1,19 @@
+MoveDef SpecialAirNStartL_C2
+{
+	Main()
+	{
+	}
+
+	Effect()
+	{
+	}
+
+	Sound()
+	{
+	}
+
+	Expression()
+	{
+	}
+
+}
